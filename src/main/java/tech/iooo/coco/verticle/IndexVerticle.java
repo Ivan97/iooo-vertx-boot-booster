@@ -13,7 +13,7 @@ import tech.iooo.coco.service.GreeterService;
  *
  * @author <a href="mailto:yangkizhang@gmail.com?subject=iooo-vertx-boot-booster">Ivan97</a>
  */
-@VerticleService(deploymentOption = "greeterDeploymentOptions")
+@VerticleService(deploymentOption = "greeterDeploymentOption")
 public class IndexVerticle extends AbstractVerticle {
 
   private static final Logger logger = LoggerFactory.getLogger(IndexVerticle.class);
