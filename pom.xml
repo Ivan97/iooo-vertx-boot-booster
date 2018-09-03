@@ -23,7 +23,7 @@
       <dependency>
         <groupId>tech.iooo.boot</groupId>
         <artifactId>iooo-boot-dependency</artifactId>
-        <version>1.0.9-SNAPSHOT</version>
+        <version>1.0.10-SNAPSHOT</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
