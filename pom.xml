@@ -3,6 +3,12 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>tech.iooo.boot</groupId>
+    <artifactId>iooo-boot-parent</artifactId>
+    <version>1.0.11-SNAPSHOT</version>
+  </parent>
 
   <groupId>tech.iooo.coco</groupId>
   <artifactId>iooo-vertx-boot-booster</artifactId>
@@ -11,19 +17,13 @@
 
   <name>iooo-vertx-boot-booster</name>
   <description>Demo project for Spring Boot</description>
-
-  <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.0.4.RELEASE</version>
-    <relativePath/>
-  </parent>
+  
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>tech.iooo.boot</groupId>
-        <artifactId>iooo-boot-dependency</artifactId>
-        <version>1.0.10-SNAPSHOT</version>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>${spring.boot.version}</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
